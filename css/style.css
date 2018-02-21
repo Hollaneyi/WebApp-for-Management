@@ -1,0 +1,132 @@
+html,
+body
+{
+	height: 100%;
+	overflow-x: hidden;
+}
+img
+{
+	max-width: 100%;
+}
+#logo
+{
+	width: 100px;
+	height: 30px;
+}
+
+#navbar
+{
+	height: 40px;
+	color: white;
+	z-index: 1;
+}
+.jumbotron
+{
+	height: 100%;
+}
+#banner
+{
+	background: url("../img/banner.jpg") center  center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+}
+.banner
+{
+	background-color: rgba(0,0,0,0.60); 
+	height: 100%;
+}
+#banner img
+{
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+a
+{
+	margin: 0 0.8rem;
+}
+.btn
+{
+	border-radius: 50px;
+}
+section .container-a
+{
+	display: flex;
+	align-self: center;
+	max-height: 60rem;
+	margin: 16rem 0;
+	padding-right: 0;
+}
+section .container-b
+{
+	display: flex;
+	align-self: center;
+	max-height: 60rem;
+	margin: 2.5rem 0;
+	/*-moz-margin: 2.5rem 0;*/
+	padding-right: 0;
+}
+.left-art
+{
+	max-width: 60rem;
+    margin: 0 auto;
+}
+.nav-link
+{
+	color: #fff !important;
+}
+form .form-control
+{
+	background-color: rgba(255,255,255, 0.10);
+	/*height: 1.8rem;*/
+}
+input
+{
+	background-color: transparent !important;
+}
+.senttrigg
+{
+	letter-spacing: 1.7rem;
+	color: aqua-blue;
+}
+#about
+{
+	background-color: rgba(23, 162, 184, 0.56);
+}
+#partners img
+{
+	width: 120px;
+}
+#footer
+{
+	background-color: #1a1a1a;
+}
+#promote_africa
+{
+	background: url('../img/program.jpg') center center no-repeat;
+	background-size: cover;
+}
+.container-c
+{
+	background-color: rgba(0,0,0,0.50);
+}
+.container
+{
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+.about-text
+{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+}
+.Our-Partners
+{
+	/*border: 2px solid brown;*/
+}
+.my-overflow
+{
+	overflow-y: auto;
+}
